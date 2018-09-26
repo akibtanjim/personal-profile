@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header title="Title" scroll>
+          <Header className="gredient-bg" title="Title" scroll>
             <Navigation>
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
